@@ -1,9 +1,9 @@
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import FestivalInfo from "@/components/FestivalInfo";
-import Events from "@/components/Events";
-import Sponsors from "@/components/Sponsors";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/layout/Navbar";
+import Hero from "@/components/sections/Hero";
+import FestivalInfo from "@/components/sections/FestivalInfo";
+import Events from "@/components/sections/Events";
+import Sponsors from "@/components/sections/Sponsors";
+import Footer from "@/components/sections/Footer";
 
 const Index = () => {
   return (
