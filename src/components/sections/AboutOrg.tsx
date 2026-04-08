@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
+import orgPhoto from "@/assets/org-photo.jpg";
 
 const stats = [
   { value: "5+", label: "Years Active" },
