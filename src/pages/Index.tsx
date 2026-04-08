@@ -19,6 +19,7 @@ const Index = () => {
         <Navbar />
         <Hero />
         <FestivalInfo />
+        <AboutOrg />
         <Events />
         <Sponsors />
         <Footer />
