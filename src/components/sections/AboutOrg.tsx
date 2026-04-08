@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
+import orgPhoto from "@/assets/org-photo.jpg";
 
 const stats = [
   { value: "5+", label: "Years Active" },
@@ -73,19 +74,14 @@ const AboutOrg = () => {
             />
 
             {/* Photo placeholder */}
-            <div
-              className="w-full aspect-[3/1]"
-              style={{
-                background:
-                  "linear-gradient(135deg, hsl(var(--space-dark)), hsl(var(--neon-purple) / 0.15) 40%, hsl(var(--neon-cyan) / 0.1) 70%, hsl(var(--space-dark)))",
-              }}
-            >
-              <div className="w-full h-full flex items-center justify-center">
-                <span className="font-heading text-sm tracking-[0.3em] uppercase text-muted-foreground/40">
-                  Organization Photo
-                </span>
-              </div>
-            </div>
+            <img
+              src={orgPhoto}
+              alt="Nova Collective festival crowd with dramatic laser show"
+              className="w-full aspect-[3/1] object-cover"
+              loading="lazy"
+              width={1920}
+              height={640}
+            />
           </div>
 
           {/* Two-column: stats + description */}
